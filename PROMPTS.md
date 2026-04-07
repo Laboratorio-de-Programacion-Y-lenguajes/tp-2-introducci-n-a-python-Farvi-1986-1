@@ -32,15 +32,24 @@ Explicá qué cambios hiciste y por qué (o por qué no cambiaste nada).
 ### 1 - variables.py
 
 **Herramienta**: 
-
+>##Gemini 
 **Prompt usado**:
-> 
+> ## variables.py (Patrón: Receta)
+Prompt:
+> Actuá como tutor de Python 3.13. Dame una receta paso a paso para completar estas 5 funciones con su nombre de funcion y su tipo de dato, de entrada y salida.
+> 1) crear_saludo(nombre) -> devuelve "Hola, {nombre}!"
+> 2) suma_enteros(a, b) -> devuelve la suma.
+> 3) es_mayor_de_edad(edad) -> devuelve True si es >= 18.
+> 4) tipo_de_dato(valor) -> devuelve el nombre del tipo (como string).
+> 5) convertir_a_float(valor) -> convierte un string a número decimal.
+> Mostrame el código limpio para pegar en mi archivo.
 
 **Resultado obtenido**:
 
+>La IA proporciono el código de las funciones permitiendo que los pytest -v funcionen
 
 **¿Lo usaste tal cual o lo modificaste?**
-
+modificado - no use el prompt del github, decidi hacer un prompt sencillo y corto.
 
 ---
 

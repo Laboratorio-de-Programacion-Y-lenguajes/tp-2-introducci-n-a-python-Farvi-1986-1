@@ -238,3 +238,9 @@ No hace falta link si el LLM no lo permite, pero sí el texto del prompt.
 - **No corre pytest**: asegurate de activar el entorno virtual `.venv` y correr `pip install -r requirements.txt`
 - **Falla un test**: leé el mensaje, muestra “esperado vs obtenido”
 - **Actions falla pero local pasa**: revisá versión de Python configurada y dependencias
+
+
+---
+**Alumno:** Fabrizio Verdu (Farvi-1986)  
+**Materia:** Laboratorio de Programación y Lenguajes  
+**Fecha de entrega:** 07/04/2026
