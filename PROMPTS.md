@@ -46,7 +46,7 @@ Prompt:
 
 **Resultado obtenido**:
 
->La IA proporciono el código de las funciones permitiendo que los pytest -v funcionen
+>Le pedí a la IA que me pasara una "receta" paso a paso para no mandarme ninguna macana. Me ayudó a usar f-strings para los saludos y a entender cómo usar type().__name__ para que el código me diga qué tipo de dato es cada variable sin dar tantas vueltas. Al final, los tests pasaron de una.
 
 **¿Lo usaste tal cual o lo modificaste?**
 Use el mismo tipo de PROMPT, pero no el que estaba en el github.
@@ -182,5 +182,8 @@ Use el mismo tipo de PROMPT, pero no el que estaba en el github.
 Respondé brevemente (3-5 oraciones):
 
 - ¿Qué aprendiste sobre cómo formular buenos prompts?
+varia mucho para lo que se necesita, ya que para cada ejercicio se necesita algo mas especifico. Es importante saber el funcionamiento individual de cada uno para poder explotarlo lo mejor posible.
 - ¿En qué casos la IA fue útil y en cuáles no?
+honestamente, en todos fue util, al ser ejercicios simples no presento alguna "ineficiencia" en estos casos, pero si fuesen mas largos, obviamente habrian casos donde no seria util.
 - ¿Qué harías diferente la próxima vez?
+tratar de centrarme en un tipo de patron y explotarlo lo mas posible
