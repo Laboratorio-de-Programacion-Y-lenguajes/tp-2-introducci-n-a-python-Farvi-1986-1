@@ -102,18 +102,28 @@ Use el mismo tipo de PROMPT, pero no el que estaba en el github.
 
 ---
 
-### 4 - diccionarios.py
+### 4 - diccionarios.py (generacion infinita)
 
 **Herramienta**: 
-
+>Gemini
 **Prompt usado**:
-> 
+
+## diccionarios.py (Patrón: Generación infinita)
+Prompt:
+> Actuá como un generador de ejemplos de diccionarios en Python. Generá 8 ejemplos distintos de diccionarios que representen frecuencias de palabras, mapeos de claves-valores invertibles y combinaciones de diccionarios. Para cada ejemplo, mostrá cómo se vería antes y después de aplicar funciones como `contar_palabras`, `invertir_diccionario`, `merge_diccionarios` y `filtrar_por_valor`. Finalmente, derivá una regla general y proporcioná el código para implementar estas funciones en mi TP.
 
 **Resultado obtenido**:
 
+Para que el código pase el pytest, hay que tener cuidado con:
+
+    contar_palabras: El enunciado pide comparar en minúsculas.
+
+    invertir_diccionario: Si un valor se repite, la última clave que lo use "pisará" a la anterior (esto es normal en diccionarios).
+
+    merge_diccionarios: Si d1 y d2 tienen la misma clave, mandan los datos de d2
 
 **¿Lo usaste tal cual o lo modificaste?**
-
+Use el mismo tipo de PROMPT, pero no el que estaba en el github.
 
 ---
 
