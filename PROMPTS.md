@@ -77,18 +77,28 @@ Use el mismo tipo de PROMPT, pero no el que estaba en el github.
 
 ---
 
-### 3 - listas.py
+### 3 - listas.py (verificador cognitivo)
 
 **Herramienta**: 
-
+>Gemini
 **Prompt usado**:
-> 
+
+> Estoy resolviendo un ejercicio de listas en Python que incluye funciones como `suma_lista`, `filtrar_pares`, `invertir_lista`, `eliminar_duplicados` y `aplanar_lista`. ¿Podés actuar como mi verificador cognitivo y revisar mi lógica? 
+> 1) Enumerá casos borde que debería testear (listas vacías, tipos mixtos).
+> 2) Decime errores típicos (como modificar la lista original por accidente).
+> 3) Proponé 3 tests con entradas y salidas esperadas para estas funciones sin darme el código final todavía.
 
 **Resultado obtenido**:
+Casos Borde: * Lista vacía []: La suma debería ser 0 y el filtro debería devolver []. Si no lo manejás, el código puede fallar.
 
+Duplicados: Si tenés [1, 2, 1, 3], el resultado debe ser [1, 2, 3]. El orden de "primera aparición" es clave aquí.
+
+Errores Típicos: * Invertir la lista: Si usás lista.reverse(), modificás la original y desaprobás esa función. Hay que usar un método que cree una copia.
+
+ Aplanar: Si la lista tiene diferentes tamaños (ej: [[1], [2, 3]]), el bucle tiene que ser flexible.
 
 **¿Lo usaste tal cual o lo modificaste?**
-
+Use el mismo tipo de PROMPT, pero no el que estaba en el github.
 
 ---
 
