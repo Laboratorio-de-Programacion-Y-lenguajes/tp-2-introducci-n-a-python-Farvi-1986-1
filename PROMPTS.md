@@ -49,22 +49,31 @@ Prompt:
 >La IA proporciono el código de las funciones permitiendo que los pytest -v funcionen
 
 **¿Lo usaste tal cual o lo modificaste?**
-modificado - no use el prompt del github, decidi hacer un prompt sencillo y corto.
+Use el mismo tipo de PROMPT, pero no el que estaba en el github.
 
 ---
 
-### 2 - condicionales.py
+### 2 - condicionales.py (interaccion invertida)
 
 **Herramienta**: 
-
+>#Gemini
 **Prompt usado**:
-> 
+
+> Quiero implementar cuatro funciones en Python: `clasificar_numero`, `mayor_de_tres`, `clasificar_nota` y `es_bisiesto`
+Antes de proporcionarme el código, actuá como un verificador y haceme 3 preguntas clave sobre las reglas de negocio, el orden de las condiciones y los casos borde (como el año bisiesto o las notas) para confirmar que entiendo la lógica. Una vez que responda, generá el código final.
+
+Sobre las notas (clasificar_nota): Si un alumno saca un 9.5, ¿qué categoría debería devolver el programa? ¿Importa el orden en que pongamos los if (por ejemplo, preguntar primero si es mayor a 6 o primero si es mayor a 9)?
+>sobresaliente. si importa.
+Sobre el número mayor (mayor_de_tres): ¿Qué debería pasar si los tres números son iguales (ejemplo: 5, 5, 5)?
+>Deberia devolver el numero y listo.
+Sobre el año bisiesto (es_bisiesto): Según la regla del PDF, el año 2100 es divisible por 4 y por 100, pero NO por 400. ¿Entonces es bisiesto o no?
+>Nop
 
 **Resultado obtenido**:
-
+La IA realizó preguntas de validación sobre el orden de los condicionales, el manejo de números iguales y la lógica de años bisiestos. Tras aclarar que el orden de las notas debe ser descendente y que la función de mayor debe devolver solo el entero, se procedió a implementar el código.
 
 **¿Lo usaste tal cual o lo modificaste?**
-
+Use el mismo tipo de PROMPT, pero no el que estaba en el github.
 
 ---
 
