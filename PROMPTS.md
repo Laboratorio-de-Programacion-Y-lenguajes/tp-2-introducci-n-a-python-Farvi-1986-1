@@ -161,18 +161,19 @@ Use el mismo tipo de PROMPT, pero no el que estaba en el github.
 
 ---
 
-### 7 - operaciones.py
+### 7 - operaciones.py (enfoques alternativos)
 
 **Herramienta**: 
+Gemini
 
 **Prompt usado**:
-> 
+> Necesito implementar `es_palindromo`, `capitalizar_palabras`, `contar_vocales` y `caesar_cipher`. Compará dos enfoques: 1) Usar métodos de strings de Python como `.title()`, `.replace()` y slicing, y 2) Hacerlo manualmente con bucles y comparaciones de códigos ASCII. Analizá cuál es más mantenible y proporcioná la solución definitiva.
 
 **Resultado obtenido**:
-
+La IA comparó el uso de métodos nativos (más legibles) frente a lógica manual (más educativa). Se optó por una mezcla: métodos nativos para limpieza de texto y lógica de caracteres para el cifrado César.
 
 **¿Lo usaste tal cual o lo modificaste?**
-
+Use el mismo tipo de PROMPT, pero no el que estaba en el github.
 
 ---
 
