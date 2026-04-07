@@ -146,18 +146,18 @@ Use el mismo tipo de PROMPT, pero no el que estaba en el github.
 
 ---
 
-### 6 - funciones.py
+### 6 - funciones.py (reflexion)
 
 **Herramienta**: 
-
+Gemini
 **Prompt usado**:
-> 
 
+> Necesito implementar `aplicar_funcion`, `componer`, `memoizar` y `reducir` en Python 3.13. Antes de darme el código, realizá una reflexión sobre la diferencia entre ejecutar una función y "devolver una función" (como en componer y memoizar). Analizá qué enfoque es más claro para evitar efectos secundarios y proporcioná la implementación más legible para un nivel inicial.
 **Resultado obtenido**:
-
+La IA reflexionó sobre el concepto de closures y funciones como objetos de primera clase. Se determinó que usar bucles simples para reducir es más legible que la recursión, y se implementó un decorador básico para la memoización.
 
 **¿Lo usaste tal cual o lo modificaste?**
-
+Use el mismo tipo de PROMPT, pero no el que estaba en el github.
 
 ---
 
