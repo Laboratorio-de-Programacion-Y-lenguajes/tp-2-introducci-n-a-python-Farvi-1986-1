@@ -90,11 +90,8 @@ Use el mismo tipo de PROMPT, pero no el que estaba en el github.
 
 **Resultado obtenido**:
 Casos Borde: * Lista vacía []: La suma debería ser 0 y el filtro debería devolver []. Si no lo manejás, el código puede fallar.
-
 Duplicados: Si tenés [1, 2, 1, 3], el resultado debe ser [1, 2, 3]. El orden de "primera aparición" es clave aquí.
-
 Errores Típicos: * Invertir la lista: Si usás lista.reverse(), modificás la original y desaprobás esa función. Hay que usar un método que cree una copia.
-
  Aplanar: Si la lista tiene diferentes tamaños (ej: [[1], [2, 3]]), el bucle tiene que ser flexible.
 
 **¿Lo usaste tal cual o lo modificaste?**
@@ -117,9 +114,7 @@ Prompt:
 Para que el código pase el pytest, hay que tener cuidado con:
 
     contar_palabras: El enunciado pide comparar en minúsculas.
-
     invertir_diccionario: Si un valor se repite, la última clave que lo use "pisará" a la anterior (esto es normal en diccionarios).
-
     merge_diccionarios: Si d1 y d2 tienen la misma clave, mandan los datos de d2
 
 **¿Lo usaste tal cual o lo modificaste?**
@@ -127,18 +122,27 @@ Use el mismo tipo de PROMPT, pero no el que estaba en el github.
 
 ---
 
-### 5 - loops.py
+### 5 - loops.py (refinamiento de preguntas)
 
 **Herramienta**: 
-
+Gemini
 **Prompt usado**:
-> 
+
+> P1: ¿Cómo genero una lista de números del 1 al N usando range en Python?
+> P2: ¿Cuál es la forma más eficiente de sumar los dígitos de un número sin convertirlo a string?
+> P3: ¿Cómo puedo verificar si un número es primo optimizando el bucle para que no recorra todos los números?
+> P4: Para la serie de Fibonacci, ¿cómo manejo los casos donde N es 0 o 1 para evitar errores en la lista?
+> P5: Mostrame la implementación final de estas funciones para mi TP.
 
 **Resultado obtenido**:
 
+Para que los tests no te reboten, hay que tener en cuenta estos detalles:
+    contar_hasta: El range tiene que ser (1, n + 1) para que incluya al número N.
+    suma_digitos: Aunque se puede hacer con strings, usar el operador % 10 y // 10 es lo que suelen pedir en programación para trabajar con restos.
+    es_primo: Recordá que el 1 no es primo. El bucle debe empezar desde 2.
 
 **¿Lo usaste tal cual o lo modificaste?**
-
+Use el mismo tipo de PROMPT, pero no el que estaba en el github.
 
 ---
 
