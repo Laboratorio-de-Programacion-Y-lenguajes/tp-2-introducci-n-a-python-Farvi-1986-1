@@ -244,3 +244,7 @@ No hace falta link si el LLM no lo permite, pero sí el texto del prompt.
 **Alumno:** Fabrizio Verdu (Farvi-1986)  
 **Materia:** Laboratorio de Programación y Lenguajes  
 **Fecha de entrega:** 07/04/2026
+
+- 
+tuve un pequeño problema a lo ultimo, no me dejaba hace el push de los archivos, me dejaba hacer los commits pero no aparecian en el github, después magicamente me dejo, y no estoy seguro si se subieron todos los commits con el ultimo push, pero tengo los 7 commits en la esquina izquierda de mi visual studio, cualquier cosa le mando mail con la foto por las dudas, pero hice +7 commits en este trabajo.
+-
